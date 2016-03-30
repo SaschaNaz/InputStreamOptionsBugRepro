@@ -7,7 +7,7 @@ Related discussions: [StackOverflow](https://stackoverflow.com/questions/3552761
 
 ### Environment
 
-* Windows 10
+* Windows 10 (build 10586, Insider Preivew build 14295)
 * Node.js (5.x is used but lower versions should work)
 * Visual Studio 2015
 
