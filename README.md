@@ -1,5 +1,5 @@
 # InputStreamOptionsBugRepro
-Reproes DataReader.inputStreamOptions/loadAsync bug
+A bug repro for [`DataReader.loadAsync`](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.streams.datareader.loadasync.aspx) with [`InputStreamOptions.partial`](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.streams.inputstreamoptions.aspx) set, which responds when zero byte is available while it must not according to their documentation.
 
 Related discussions: [StackOverflow](https://stackoverflow.com/questions/35527614/datareader-loadasync-is-being-completed-even-when-unconsumedbufferlength-is-0), [MSDN](https://social.msdn.microsoft.com/Forums/windowsapps/en-US/a83f27fe-d843-4d93-8b6d-e7b71f62dfb9/datareaderloadasync-is-being-completed-even-when-unconsumedbufferlength-is-0?forum=wpdevelop)
 
