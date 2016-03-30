@@ -16,3 +16,7 @@ Related discussions: [StackOverflow](https://stackoverflow.com/questions/3552761
 3. The `Empty parts read` count should be 0. Otherwise, it means `DataReader.loadAsync` is finished even when there is zero bytes available, and in other words, [`InputStreamOptions.partial`](https://msdn.microsoft.com/en-us/library/windows/apps/windows.storage.streams.inputstreamoptions.aspx) is not working as documented.
 
    > The asynchronous read operation completes when one or more bytes is available.
+   
+### Screenshot
+
+![screenshot](2016-03-30.png)
